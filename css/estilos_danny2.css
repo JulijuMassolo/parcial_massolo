@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+	background-image: url(../imagenes/patron_fantasma4.jpg);
+}
+
+main {
+	width: 88%;
+    height: auto;
+    max-width: 1280px;
+    background-color: #d1d8e0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+header{
+	width: 100%;
+	height: 153px;
+	background-color: #747d8c;
+}
+
+header a img{
+	padding-left: 500px;
+    padding-top: 9px;
+}
+
+/*------------------------------------------------- DANNY
+*/
+
+
+.contenedor_personaje {
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.contenedor_personaje div {
+	box-shadow: inset 0px 0px 4px, 0px 0px 22px #2ed573;
+    border-radius: 18px;
+    padding: 2%;
+    margin: 10% 4% 13% 3%;
+}
+
+.comun {
+	height: 540px;
+    width: auto;
+    margin: 2% 0% 1% 3%;
+}
+
+.fantasma {
+	height: 540px;
+    width: auto;
+    margin: 9% 2% -5% 0.5%;
+}
+
+.villano{
+	display: none;
+}
+
+h1 {
+	color: #a55eea;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.cursiva{
+	font-style: italic;
+}
+/*------------------------------------------------- GALERIA
+*/
+
+.galeria h1{
+	color: ;
+	text-shadow: 3px 0px 11px darkslategrey;
+}
+
+.galeria a{
+	margin-left: 6.5%;
+}
+
+.galeria a img{
+	height: auto;
+    width: 40%;
+}
+
+.Sam {
+	height: 35rem;
+    width: auto;
+    margin: 1% 0 1% 1%;
+}
+
+.Tucker {
+	height: 35rem;
+    width: auto;
+    margin: 1% 0 1% 1%;
+}
+
+/*------------------------------------------------- AMIGOS
+*/
+
+.amigos{
+	margin-top: 4%;
+}
+
+.amigos h1{
+	font-family: sans-serif;
+    color: #129e37;
+    text-shadow: 1px 0px 12px darkslategrey;
+}
+
+.amigos h2{
+	color: blueviolet;
+    font-size: 26px;
+}
+
+.contenedor_amigos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.contenedor_amigos div{
+	margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contenedor_amigos div p{
+	box-shadow: inset 0px 0px 2px, 0px 0px 21px #8854d0;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 2% 19% 2% 17%;
+}
+
+/*------------------------------------------------- FOOTER
+*/
+
+footer{
+	width: 100%;
+	height: 68px;
+	background-color: #57606f;
+}
+
+.uces{
+	width: 6%;
+	float: left;
+	margin-left: 1%;
+    margin-top: 1%;
+}
+
+.micrositio{
+	float: left;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d1d8e0;
+    margin-left: 38%;
+    margin-top: 1.7%;
+
+}
+
+.nickelodeon{
+    width: 12%;
+    float: right;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+/*-----------------------------------------------------MICROSITIO-----*/
+
+.morfo h1{
+	font-size: 2vw;
+	margin-left: 6%;
+    margin-top: 2%;
+}
+
+.contenedor_colores img{
+	width: 54%;
+    height: auto;
+    margin-left: 6%;
+}
+
+.tipo h1{
+	font-size: 2vw;
+	margin-left: 75%;
+    margin-top: 2%;
+}
+
+.contenedor_tipografia img{
+	width: 59%;
+    height: auto;
+    margin-left: 35%;
+}
+
+.wire h1{
+	color: #a55eea;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.wire h2{
+	color: #a55eea;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-left: 13%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.imgtop1_d{
+	width: 41%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 1%;
+
+}
+
+.imgtop2_d{
+	width: 52%;
+    height: auto;
+}
+
+.imgtop3_d{
+	width: 41%;
+    height: auto;
+    margin-left: 31%;
+    margin-top: 2%;
+}
+
+.imgtop1_t{
+	width: 44%;
+    height: auto;
+    margin-left: 4%;
+}
+
+.imgtop2_t{
+	width: 41%;
+    height: auto;
+    margin-left: 4%;
+}
+
+.imgtop3_t{
+	width: 44%;
+    height: auto;
+    margin-left: 3%;
+    margin-left: 4%;
+}
+
+.imgtop4_t{
+	width: 34%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.imgtop1_m{
+	width: 44%;
+    height: auto;
+    margin-left: 4%;
+}
+
+.imgtop2_m{
+	width: 39%;
+    height: auto;
+    margin-left: 4%;
+}
+
+.imgtop3_m{
+	width: 44%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.imgtop4_m{
+	width: 36%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.relevamiento{
+	width: 32%;
+    height: auto;
+    margin-bottom: 1%;
+	margin-left: 35%;
+}
+
+/*------------------------------------------------------------------------SMALL/MOBILE-----*/
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){   
+ 
+	body{ 
+		background-image: url(../imagenes/gradient.png);
+		background-position: center;
+	}
+ 
+	header{
+		height: 101px;
+	}
+
+	header a img{
+		padding-left: 19px;
+	    padding-top: 12px;
+	    height: 100px;
+	    width: auto;
+	} 
+
+/*------------------------------------------------------PERSONAJE---*/
+
+	.comun{
+		width: 30%;
+		height: auto;
+	    margin: 6% 1% 1% 1%;	    
+	}
+
+	.fantasma{
+		display: none;
+	}
+
+	.villano{
+	display: none;
+	}
+
+	.contenedor_personaje div{
+		margin: 5% 3% 12% 2%;
+	}
+
+	.contenedor_personaje div p{
+		font-size: 2vw;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.negrita{
+		font-size: 2vw;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.cursiva{
+		font-size: 2vw;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+/*--------------------------------------------GALERIA----*/
+
+	.galeria h1{
+		font-size: 4vw;
+    	margin-left: 11%;
+	}
+
+	.galeria a img{
+		height: auto;
+		width: 76%;
+		margin-left: 4%;
+		margin-top: 2%;
+	}
+
+/*--------------------------------------------AMIGOS----*/
+
+	.amigos h1{
+		font-size: 4vw;
+    	margin-left: 11%;
+	}
+
+	.Sam{
+		height: auto;
+    	width: 56%;
+	}
+
+	.Tucker{
+		height: auto;
+	    width: 63%;
+	    margin-bottom: 10%;
+	    margin-top: 15%;
+	}
+
+	.amigos h2{
+		font-size: 4vw;
+    	margin-top: 2%;
+	}
+
+	.contenedor_amigos div{
+		margin: 2% 2% 2% 3%;
+	}
+
+	.contenedor_amigos div p{
+		font-size: 2vw;
+	    font-family: 'Open Sans';
+	    margin: 7% 5% 3% 3%;
+	    padding: 4%;
+	}
+
+/*--------------------------------------------FOOTER----*/
+
+	footer{
+		width: auto;
+    	height: 44px;
+	}
+
+	.uces{
+		margin-left: 2%;
+	    margin-top: 2%;
+	    height: auto;
+	    width: 9%;
+	}
+
+	.micrositio{
+		font-size: 14px;
+	    margin-left: 31%;
+	    margin-top: 2.5%;
+	}
+
+	.nickelodeon{
+	    margin-right: 2%;
+	    margin-top: 0.8%;
+	    height: 26px;
+    	width: auto;
+	}
+
+}
+
+/*------------------------------------------------------------------------MEDIUM/TABLET----*/
+
+/*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+
+	body{
+		/*background-color: green;*/
+		background-image: url(../imagenes/patron_fantasma3.jpg);
+	}
+
+	header{
+		width: 100%;
+		height: auto;
+		background-color: #747d8c;
+	}
+
+	header a img{
+		padding-left: 222px;
+	    padding-top: 16px;
+	    height: auto;
+	    width: 64%;
+	    max-width: 65%;
+	    margin-left: 5%;
+	} 
+
+/*--------------------------------------------PERSONAJE----*/
+
+	.comun{
+		display: none;
+	}
+
+	.fantasma{
+		height: auto;
+    	width: 42%;
+	    margin: 8% 1% 0% 1%;
+	}
+
+	.villano{
+		display: none;
+	}
+
+	.contenedor_personaje div{
+		margin: 10% 1.5% 17% 3.5%;
+	}
+
+	.contenedor_personaje div p{
+		font-size: 1.6vw;
+	    font-family: 'Open Sans';
+	    text-align: -webkit-right;
+	}
+
+/*--------------------------------------------GALERIA-----*/
+
+	.galeria h1{
+		font-size: 4vw;
+	    float: right;
+	    margin-right: 41%;
+	    margin-top: 1%;
+	}
+
+	.galeria a img{
+		margin-top: 2%;
+	    margin-left: 3%;
+	    height: auto;
+    	width: 77%;
+	}
+
+/*--------------------------------------------AMIGOS-----*/
+
+	.amigos h1{
+		font-size: 4vw;
+	    margin-top: 1%;
+	    margin-bottom: 2%;
+	    margin-left: 35%;
+	}
+
+	.Sam{
+		height: auto;
+    	width: 60%;
+	    margin: 1% 0 1% 1%;
+	}
+
+	.Tucker{
+		height: auto;
+	    width: 68%;
+	    margin: 21% 0 5% 1%;
+	}
+
+	.amigos h2{
+		font-size: 3vw;
+	}
+
+	.contenedor_amigos div{
+		margin: 3% 3% 2% 2%;
+	}
+
+	.contenedor_amigos div p{
+		font-size: 1.6vw;
+	    font-family: 'Open Sans';
+	    margin: 5% 3% 2% 1%;
+	    padding: 4%;
+	}
+
+/*--------------------------------------------FOOTER-----*/
+	footer{
+		height: 67px;
+    	width: 100%;
+	}
+
+	.uces{
+		width: 14%;
+	}
+
+	.micrositio{
+		font-size: 20px;
+	    margin-left: 26%;
+	    margin-top: 3%;
+	}
+
+	.nickelodeon{
+		width: 25%;
+	}
+}
+
+/*------------------------------------------------------------------------LARGE/DESKTOPS-----*/
+
+/*Large  (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+ 	body{
+ 		/*background-color: blue;*/
+ 		background-image: url(../imagenes/patron_fantasma5.jpg)
+ 	}
+
+ 	header{
+ 		height: auto;
+    	width: 100%;
+ 	}
+
+ 	header a img{
+ 		padding-left: 315px;
+	    padding-top: 13px;
+	    height: auto;
+	    width: 71%;
+	    max-width: 60%;
+	    margin-left: 5%;
+ 	}
+
+ /*--------------------------------------------PERSONAJE-----*/
+
+	.comun{
+		display: none;
+	}
+
+	.fantasma{
+		display: none;
+	}
+
+	.villano{
+		height: auto;
+    	width: 34%;
+		float: left;
+		display: block;
+		margin-top: 19%;
+    	margin-left: 2%;
+	}
+
+	.contenedor_personaje div{
+		margin: 9% 4% 20% 2%;
+	}
+
+	.contenedor_personaje div p{
+		font-size: 1.7vw;
+	    font-family: 'Open Sans';
+	    text-align: left;
+	}
+
+/*--------------------------------------------GALERIA------*/	
+
+	.galeria h1{
+		font-size: 3vw;
+	    margin-left: 78%;
+	    margin-bottom: 3%;
+	}
+
+	.galeria a img{
+		height: auto;
+    	width: 40%;
+    	margin-bottom: 2%;
+	}
+
+/*--------------------------------------------AMIGOS------*/
+	
+	.amigos h1{
+		font-size: 3vw;
+	}
+
+	.Sam{
+		height: auto;
+    	width: 56%;
+	}
+
+	.Tucker{
+		height: auto;
+    	width: 64%;
+    	margin: 18% 0 3% 1%;
+	}
+
+	.amigos h2{
+		font-size: 3vw;
+	}
+
+	.contenedor_amigos div p{
+		font-size: 1.5vw;
+		margin-top: 6%;
+	}
+
+/*--------------------------------------------FOOTER------*/
+
+	footer{
+		height: 73px;
+	}
+
+	.uces{
+		width: 11%;
+		margin-top: 0.5%;
+	}
+
+	.nickelodeon{
+		width: 22%;
+		margin-top: 0.3%;
+	}
+
+	.micrositio{
+		margin-left: 29%;
+	    margin-top: 2.5%;
+	    font-size: 23px;
+	}
+} 
+
+
+
